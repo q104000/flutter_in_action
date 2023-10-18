@@ -30,11 +30,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  intl: ^0.18.1
   dio: ^4.0.0
   dio_cookie_manager: ^2.0.0
-  intl: ^0.17.0
   path_provider: ^2.0.2
-  camera: ^0.8.1+4
+  camera:
+    git:
+      url: https://github.com/flutter/plugins
+      path: packages/camera/camera
+      ref: 9e46048ad2e1f085c1e8f6c77391fa52025e681f
   video_player: ^2.1.10
   webview_flutter: ^2.0.10
 

@@ -149,7 +149,8 @@ class _ScaffoldRouteState extends State<ScaffoldRoute>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        brightness: Brightness.dark,
+        //todo:test
+        // brightness: Brightness.dark,
         title: Text('Page Title'),
         actions: [
           IconButton(

@@ -4,7 +4,8 @@ class AppBarTool {
   static AppBar initBar(String title) {
     return AppBar(
       title: Text(title),
-      brightness: Brightness.dark,
+      //todo:test
+      // brightness: Brightness.dark,
     );
   }
 }

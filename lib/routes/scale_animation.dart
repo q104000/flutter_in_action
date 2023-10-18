@@ -31,7 +31,8 @@ class _ScaleAnimationRoute extends State<ScaleAnimationRoute>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        brightness: Brightness.dark,
+        //todo:test
+        // brightness: Brightness.dark,
         title: Text("放大动画-原始版"),
         actions: [
           IconButton(

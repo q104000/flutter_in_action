@@ -249,7 +249,9 @@ class _CameraExampleHomeState extends State<CameraExampleHome>
   String timestamp() => DateTime.now().millisecondsSinceEpoch.toString();
 
   void showInSnackBar(String message) {
-    _scaffoldKey.currentState!.showSnackBar(SnackBar(content: Text(message)));
+    //todo:test
+    // _scaffoldKey.currentState!.showSnackBar(SnackBar(content: Text(message)));
+    _scaffoldKey.currentState!.openDrawer();
   }
 
   // 摄像头选中回调

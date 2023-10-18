@@ -1,3 +1,11 @@
+Flutter实战第一版随书源码
+
+fork：https://github.com/ChengLuffy/flutter_in_action_source_code
+
+编译通过，用处不大。
+
+
+
 # flutter_in_action_source_code
 
 A Flutter(version:2.2.0) project for Flutter in action.

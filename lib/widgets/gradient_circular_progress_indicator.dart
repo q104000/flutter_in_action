@@ -30,7 +30,9 @@ class GradientCircularProgressIndicator extends StatelessWidget {
     }
     var _colors = colors;
     if (_colors == null) {
-      Color color = Theme.of(context).accentColor;
+      //todo:test
+      // Color color = Theme.of(context).accentColor;
+      Color color = Theme.of(context).canvasColor;
       _colors = [color, color];
     }
     var painter = _GradientCircularProgressPainter(
